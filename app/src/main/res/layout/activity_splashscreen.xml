@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO MY FIRST APPLICATION"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/saya"
+        android:padding="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="©RiswandaIchsan2019"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingTop="550dp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</RelativeLayout>
